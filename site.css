@@ -1,0 +1,29 @@
+* {
+  background-color: rosybrown;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: burlywood;
+  background-color: black;
+  margin: 0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: orange;
+}

@@ -1,0 +1,56 @@
+body {
+  background-color: lightsalmon;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.me2021 {
+  width: 100px;
+  /* border-radius: 50px; */
+  border-radius: 25%;
+}
+.container {
+  padding-top: 30px;
+}
+.info {
+  background-color: lightpink;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.info p {
+  color: brown;
+}
+.groups {
+  background-color: bisque;
+}
+.groups h2 {
+  text-decoration: underline;
+}
+.groups div {
+  margin-bottom: 20px;
+}
+.name {
+  color: red;
+}
+.groups {
+  text-decoration: underline;
+  margin: 0;
+}
+#employmenthistory {
+  text-decoration: none;
+}
+a {
+  color: brown;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: gray;
+}
