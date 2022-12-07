@@ -9,8 +9,7 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 h1 {
-  color: burlywood;
-  background-color: black;
+  color: rosybrown;
   margin: 0;
 }
 a {
@@ -25,5 +24,32 @@ a:active {
   color: red;
 }
 a:visited {
-  color: orange;
+  color: pink;
+}
+ 
+.container {
+  margin: 10px 20px 25px 15px;
+  max-width: 800px;
+  padding-top: 20px;
+  padding: 30px;
+}
+.container div {
+  text-align: center;
+}
+.form-group {
+  margin: 30px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+}
+.labels{
+  margin: 30px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.submit-button{
+  font-size: large;
+  font: inherit;
 }
