@@ -137,10 +137,9 @@
 // task9 (prime numbers yes or no через loop WHILE)
 const a = +prompt('enter a number, please');
 let isPrime = true;
-for(let i=2; i<a; i++){
+for(let i=2; i<=a/2; i++){
     if(a%1 ===0){
-        isPrime = false;
-        console.log(a, i, a%i) 
+        isPrime = false; 
         break
     }
 }
