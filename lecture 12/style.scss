@@ -1,0 +1,31 @@
+@import "./variables";
+@import "./header";
+
+body{
+    background-color: $primaryColor;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    .flex-item {
+    width: 50px;
+    height: 50px;
+    background-color: $primaryColor;
+}
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    background-color: $secondaryColor;
+    margin: 100px;
+    text-align: center;
+    color: $primaryColor;
+    font-size: 20px;
+    .button {
+        &:hover{
+            content: "Don't click me";
+        }
+    }
+}
