@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+}
+header button {
+  font-size: 25px;
+}
+
+body {
+  background-color: green;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.flex-container .flex-item {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: blanchedalmond;
+  margin: 100px;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+.block .button:hover {
+  content: "Don't click me";
+}/*# sourceMappingURL=style.css.map */
